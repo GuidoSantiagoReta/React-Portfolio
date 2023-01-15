@@ -106,7 +106,10 @@
     to{transform:rotateZ(-360deg)}
 }
 
-@media screen and (min-width:301px)and (max-width:620px){
+
+
+
+@media screen and (min-width:321px)and (max-width:620px){
 
    
 
@@ -149,7 +152,7 @@
 
 
 
-@media (max-width:300px){
+@media (max-width:320px){
 
     .portada-container>h1 {
     
