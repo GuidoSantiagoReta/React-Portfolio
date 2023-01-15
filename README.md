@@ -4,7 +4,7 @@
  ### Technologies:
  - react icons library: se utilizan en forma de componentes impotando la libreria correspondiente. https://react-icons.github.io/react-icons/
 
- ### Transiciones y animaciones con react transition group: 
+ ### Transiciones y animaciones: 
  - framer motion(por definir).
 
 
