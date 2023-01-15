@@ -1,0 +1,281 @@
+
+
+.galeria-port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5rem;
+
+}
+
+.imagen-port {
+    width: 24%;
+    margin-bottom: 50px;
+    height: 185px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .5);
+
+
+
+}
+
+.imagen-port>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.hover-galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(184, 108, 1, 0.796);
+    transition: transform 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.hover-galeria img {
+
+    width: 100px;
+
+}
+
+.hover-galeria>h2 {
+    color: rgb(15, 15, 15)
+}
+
+.hover-galeria>p {
+    padding-top: 8px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.imagen-port:hover .hover-galeria {
+    transform: scale(1);
+
+
+}
+
+/*PROYECTOS*/
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cards .card {
+    background: #3f3d3ab3;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+    background-size: cover;
+
+}
+
+
+/*DEMO PROJECTS*/
+
+.demo1 {
+    display: flex;
+
+}
+
+.demo-project {
+    cursor: pointer;
+    margin-top: 30px;
+    padding-right: 10px;
+}
+
+.laptop {
+    color: rgb(4, 181, 217);
+    width: 40px;
+    height: 40px;
+
+}
+
+.github {
+    color: rgb(12, 12, 12);
+    width: 40px;
+    height: 40px;
+}
+
+/*MEDIAQUERIES*/
+
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px){
+    /* Galeria*/
+    .contenedor {
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    .galeria-port {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 4rem;
+
+
+    }
+
+    .imagen-port {
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+
+
+    /* Galeria*/
+    .contenedor {
+        display: flex;
+        margin-bottom: 100px;
+      
+    }
+
+    .galeria-port {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 4rem;
+
+
+    }
+
+    .imagen-port {
+        width: 44%;
+    }
+
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card {
+        width: 100%;
+
+
+    }
+
+    .cards .card:first-child {
+        margin-bottom: 30px;
+
+
+    }
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 891px) {
+
+    .galeria-port {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 5rem;
+
+    }
+
+    .imagen-port {
+        width: 65%;
+        min-width: 50%;
+    }
+
+    /*PROYECTOS*/
+    .cards .card {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .cards .card img {
+
+        width: 90px;
+        height: 90px;
+        background-image: cover;
+    }
+
+    
+}
+
+@media screen and (min-width: 301px) and (max-width:530px) {
+
+
+    /* GALERIA*/
+
+    .galeria-port {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 4rem;
+
+    }
+
+    .imagen-port {
+        width: 100%;
+     
+    }
+
+    /*PROYECTOS*/
+
+    .hover-galeria>p {
+        padding-top: 8px;
+        color: #fff;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:300px) {
+
+
+    /* GALERIA*/
+
+    .galeria-port {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 1rem;
+
+    }
+
+    .imagen-port {
+        width: 100%;
+        min-width: 100%;
+    }
+    .hover-galeria>p {
+       
+        font-size: 11px;
+    }
+}

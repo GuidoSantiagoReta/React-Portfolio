@@ -1,0 +1,186 @@
+.portada-container {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 5, 5, 0.9);
+    overflow: hidden;
+   /* background-color: rgba(16, 16, 16, 0.526);*/
+   
+}
+
+.video {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    box-shadow: inset 0 0 1000px rgba(0, 0, 0, 0.99);
+   
+}
+
+.portada-container>h1 {
+    
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.portada-container>p {
+    
+    color: #fff;
+    margin-top: 18px;
+    font-size: 30px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+/*PROJECTS BUTTON*/
+
+
+
+.projects-btn{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    color: #e0e0e0 ;
+    background: rgba(0,0,0,0);
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid;
+    border-color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px 8px;
+    font-size: 15px;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   overflow: hidden;
+  
+}
+
+
+.projects-btn:hover{
+    background-color: rgb(184, 108, 1);
+    transition: all 1s ease;
+
+    
+}
+
+/*ICONS PROGRAMMER*/
+.icons-container{
+    display: flex;
+    justify-content: center;
+}
+.icons-container>img{
+    width: 30px;
+   margin-top: 20px;
+   margin-right: 5px;
+   
+}
+
+
+/*rotate animation*/
+#rot{
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#inverse-rotation{
+    animation-name: inverse-rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {transform:rotateZ(0deg)}
+    to{transform:rotateZ(360deg)}
+}
+@keyframes inverse-rotation{
+    from {transform:rotateZ(0deg)}
+    to{transform:rotateZ(-360deg)}
+}
+
+@media screen and (min-width:301px)and (max-width:620px){
+
+   
+
+    .portada-container>h1 {
+     
+        color: #fff;
+        font-size: 32px;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+    }
+    
+    .portada-container>p {
+        
+        color: #fff;
+        font-size: 17px;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+    
+    }
+    .btn{
+        display: flex;
+        
+    }
+
+    .projects-btn{
+        width: 60px;
+        height: 35px;
+        top:67%
+
+    }
+
+    .projects-btn>h4{
+     
+         font-size: 10px;
+         color: rgb(249, 249, 249);
+        
+      
+     } 
+
+}
+
+
+
+
+@media (max-width:300px){
+
+    .portada-container>h1 {
+    
+        color: #fff;
+        font-size: 15px;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+    }
+    
+    .portada-container>p {
+        
+        color: #fff;
+        margin-top: 18px;
+        font-size: 10px;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+        
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .projects-btn{
+        width: 60px;
+        height: 30px;
+        top: 68%;
+    }
+    .projects-btn>h4{
+     
+        font-size: 10px;
+        color: rgb(249, 249, 249);
+       
+     
+    }
+}
