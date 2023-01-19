@@ -6,7 +6,7 @@ import css3 from"../../img/css3.png";
 import javascript from"../../img/javascript.png";
 import reacticon from "../../img/react.png";
 import Contact from "../contact/Contact.jsx";
-import TypeIt from "typeit-react";
+
 
 const Portada = () => {
   return (
