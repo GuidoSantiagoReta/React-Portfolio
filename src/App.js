@@ -6,22 +6,19 @@ import useModal from "./hooks/useModal";
 
 
 
+
 function App() {
   
 
   const [isOpenModal, openModal, closeModal] = useModal();
 
   return (
-
     <div className="App">
-
-      <Portada/>
-      <button className="projects-btn" onClick={openModal}>   
+      <Portada />
+      <button className="projects-btn" onClick={openModal}>
         <h4>Projects</h4>
       </button>
-      
       <Modal isOpen={isOpenModal} closeModal={closeModal} />
-     
     </div>
   );
 }
