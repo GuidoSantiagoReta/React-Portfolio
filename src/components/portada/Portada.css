@@ -44,6 +44,12 @@
     color:#61dafb;
 }
 
+/*TIPEIT CURSOR*/
+.typeit-cursor{
+    --ti-cursor-color: rgb(184, 108, 1);
+    --ti-cursor-font-size: 25px
+}
+
 /*PROJECTS BUTTON*/
 
 
@@ -141,8 +147,8 @@
     .projects-btn{
         width: 60px;
         height: 35px;
-        top:67%
-
+        top:67%; 
+        
     }
 
     .projects-btn>h4{
@@ -152,9 +158,30 @@
         
       
      } 
-
+     /*TIPEIT CURSOR*/
+.typeit-cursor{
+    --ti-cursor-font-size: 15px;
 }
 
+
+}
+@media (max-width: 600px) and (orientation: landscape) {
+    .projects-btn{
+        display: none;
+        width: 60px;
+        height: 35px;
+        top:67%;
+        
+    }
+
+    .projects-btn>h4{
+     
+         font-size: 10px;
+         color: rgb(249, 249, 249);
+        
+      
+     } 
+}
 
 
 
@@ -191,5 +218,9 @@
         color: rgb(249, 249, 249);
        
      
+    }
+     /*TIPEIT CURSOR*/
+    .typeit-cursor{
+        --ti-cursor-font-size: 12px;
     }
 }
