@@ -14,7 +14,7 @@ const Portada = () => {
   
       <video className="video" src={port} autoPlay loop muted></video>
       <h1>Guido Santiago Reta</h1>
-     <p><TypeIt className="typeit-cursor">Front-End Developer | <span className="javascript">JavaScript</span> | <span className="react">React.js</span></TypeIt></p>
+     <p><TypeIt className="typeit-cursor"><span className="html">Front-End</span> Developer | <span className="javascript">JavaScript</span> | <span className="react">React.js</span></TypeIt></p>
       <div className="icons-container">
         <img src={html5} id='rot' alt="html5"/>
         <img src={css3} id='inverse-rotation' alt="ccs3"/>
