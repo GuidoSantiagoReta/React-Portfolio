@@ -1,8 +1,8 @@
 
- ## PORTFOLIO REACT ![react](https://user-images.githubusercontent.com/46303885/213817142-04ac4dcc-2efe-4ed1-90b2-7b3167debc41.png)
+ ##  REACT PORTFOLIO ![react](https://user-images.githubusercontent.com/46303885/213817142-04ac4dcc-2efe-4ed1-90b2-7b3167debc41.png)
 
  ### Technologies:
- - react icons library: se utilizan en forma de componentes impotando la libreria correspondiente. https://react-icons.github.io/react-icons/
+ - react icons library: se utilizan en forma de componentes importando la libreria correspondiente. https://react-icons.github.io/react-icons/
 
  ### Transiciones y animaciones: 
  - Typeit.js.
