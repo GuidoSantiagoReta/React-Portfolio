@@ -124,7 +124,7 @@
 
 
 
-@media screen and (min-width:321px)and (max-width:620px){
+@media only screen and (min-width:321px)and (max-width:620px){
 
    
 
