@@ -6,8 +6,8 @@ import tasklist1 from '../../img/tasklist1.png'
 import estudiojuridico from '../../img/estudioju2.png'
 import portfoliobt from '../../img/portfoliobootstrap.png'
 import sistemasolar from'../../img/sistemaSolar.png'
-import amw from '../../img/amw3.png'
 import plotika from '../../img/plotika.png'
+import swarerouter from'../../img/swarerouterv6.png'
 import {FaGithub,FaLaptopCode } from 'react-icons/fa';
 
 
@@ -49,15 +49,15 @@ const PortfolioCards = () => {
                     </div>
 
                     <div className="imagen-port">
-                        <img src={sware} alt="Swaregrap Solutions"/>
+                        <img src={swarerouter} alt="Swaregrap routerv6"/>
                         <div className="hover-galeria">
                             <h2>Swaregrap</h2>
-                            <p>Desarrollo web y mantenimiento de PC</p>
+                            <p>Desarrollo Web SPA ReactRouterv6</p>
                             <div className="demo1">
-                                <a  className= "demo-project"href="https://swaregrap.netlify.app">
+                                <a  className= "demo-project"href="https://swaregrap-reactrouterv6.vercel.app">
                                 <FaLaptopCode className='laptop'/>
                                 </a>
-                                <a  className= "demo-project" href="https://github.com/GuidoSantiagoReta/services">
+                                <a  className= "demo-project" href="https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6">
                                 <FaGithub className='github'/>
                                 </a>
                             </div>
@@ -114,20 +114,21 @@ const PortfolioCards = () => {
                     </div>
 
                     <div className="imagen-port">
-                        <img src={amw} alt=""/>
+                        <img src={sware} alt="Swaregrap Solutions"/>
                         <div className="hover-galeria">
-                            <h2>AMW</h2>
-                            <p>Productora Audiovisual</p>
+                            <h2>Swaregrap</h2>
+                            <p>Desarrollo web y mantenimiento de PC</p>
                             <div className="demo1">
-                                <a  className= "demo-project" href="http://">
+                                <a  className= "demo-project"href="https://swaregrap.netlify.app">
                                 <FaLaptopCode className='laptop'/>
                                 </a>
-                                <a  className="demo-project" href="http://">
+                                <a  className= "demo-project" href="https://github.com/GuidoSantiagoReta/services">
                                 <FaGithub className='github'/>
                                 </a>
                             </div>
                         </div>
                     </div>
+                  
 
                     <div className="imagen-port">
                         <img src={plotika} alt=""/>
