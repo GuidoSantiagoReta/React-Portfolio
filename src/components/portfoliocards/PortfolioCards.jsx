@@ -6,7 +6,7 @@ import tasklist1 from '../../img/tasklist1.png'
 import estudiojuridico from '../../img/estudioju2.png'
 import portfoliobt from '../../img/portfoliobootstrap.png'
 import sistemasolar from'../../img/sistemaSolar.png'
-import plotika from '../../img/plotika.png'
+import cannabisoil from '../../img/cannabisoilarg.png'
 import swarerouter from'../../img/swarerouterv6.png'
 import {FaGithub,FaLaptopCode } from 'react-icons/fa';
 
@@ -16,6 +16,21 @@ const PortfolioCards = () => {
 
        <div className="contenedor">
                 <div className="galeria-port">
+                <div className="imagen-port">
+                        <img src={cannabisoil} alt=""/>
+                        <div className="hover-galeria">
+                            <h2>Cannabis Oil Arg.</h2>
+                            <p>Venta de aceites medicinales</p>
+                            <div className="demo1">
+                                <a  className= "demo-project"href="https://cannabis-oil-arg.vercel.app/">
+                                <FaLaptopCode className='laptop'/>
+                                </a>
+                                <a  className="demo-project" href="https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg.">
+                                <FaGithub className='github'/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 <div className="imagen-port">
                         <img src={estudiojuridico} alt="MPP Abogados"/>
                         <div className="hover-galeria">
@@ -123,23 +138,6 @@ const PortfolioCards = () => {
                                 <FaLaptopCode className='laptop'/>
                                 </a>
                                 <a  className= "demo-project" href="https://github.com/GuidoSantiagoReta/services">
-                                <FaGithub className='github'/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                  
-
-                    <div className="imagen-port">
-                        <img src={plotika} alt=""/>
-                        <div className="hover-galeria">
-                            <h2>Plotika</h2>
-                            <p>Diseño de plotters para paredes</p>
-                            <div className="demo1">
-                                <a  className= "demo-project"href="http://">
-                                <FaLaptopCode className='laptop'/>
-                                </a>
-                                <a  className="demo-project" href="http://">
                                 <FaGithub className='github'/>
                                 </a>
                             </div>
