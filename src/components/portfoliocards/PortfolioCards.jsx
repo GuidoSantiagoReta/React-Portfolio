@@ -48,6 +48,22 @@ const PortfolioCards = () => {
                     </div>
                     
                     <div className="imagen-port">
+                        <img src={swarerouter} alt="Swaregrap routerv6"/>
+                        <div className="hover-galeria">
+                            <h2>Swaregrap</h2>
+                            <p>Desarrollo Web SPA ReactRouterv6</p>
+                            <div className="demo1">
+                                <a  className= "demo-project"href="https://swaregrap-reactrouterv6.vercel.app">
+                                <FaLaptopCode className='laptop'/>
+                                </a>
+                                <a  className= "demo-project" href="https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6">
+                                <FaGithub className='github'/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="imagen-port">
                         <img src={tasklist1} alt="TO-DO List in React"/>
                         <div className="hover-galeria">
                             <h2>TO-DO List React.js</h2>
@@ -63,21 +79,7 @@ const PortfolioCards = () => {
                         </div>
                     </div>
 
-                    <div className="imagen-port">
-                        <img src={swarerouter} alt="Swaregrap routerv6"/>
-                        <div className="hover-galeria">
-                            <h2>Swaregrap</h2>
-                            <p>Desarrollo Web SPA ReactRouterv6</p>
-                            <div className="demo1">
-                                <a  className= "demo-project"href="https://swaregrap-reactrouterv6.vercel.app">
-                                <FaLaptopCode className='laptop'/>
-                                </a>
-                                <a  className= "demo-project" href="https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6">
-                                <FaGithub className='github'/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     <div className="imagen-port">
                         <img src={vintagepilcha} alt="Vintage Pilcha"/>
