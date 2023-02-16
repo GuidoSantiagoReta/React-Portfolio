@@ -7,8 +7,11 @@ import javascript from"../../img/javascript.png";
 import reacticon from "../../img/react.png";
 import Contact from "../contact/Contact.jsx";
 import TypeIt from "typeit-react";
-
+import Modal from "../../components/modalProjects/Modal";
+import useModal from "../../hooks/useModal";
 const Portada = () => {
+
+  const [isOpenModal, openModal, closeModal] = useModal();
   return (
     <div className="portada-container">
   
@@ -21,7 +24,12 @@ const Portada = () => {
         <img src={javascript} id='rot' alt="javascrip"/>
         <img src={reacticon} id='inverse-rotation' alt="react"/>
         </div>
-        <Contact/>
+        
+        <button className="projects-btn" onClick={openModal}>
+        <h4>Projects</h4>
+      </button>
+      <Modal isOpen={isOpenModal} closeModal={closeModal} />
+      <Contact/>
     </div>
   )
 }
