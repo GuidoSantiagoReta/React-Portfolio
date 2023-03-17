@@ -1,36 +1,35 @@
-import React from 'react'
-import './PortfolioCards.css'
-import vintagepilcha from '../../img/vintagepilcha.png'
-import tasklist1 from '../../img/tasklist1.png'
-import estudiojuridico from '../../img/estudioju2.png'
-import portfoliobt from '../../img/portfoliobootstrap.png'
-import sistemasolar from'../../img/sistemaSolar.png'
-import cannabisoil from '../../img/cannabisoilarg.png'
-import swarerouter from'../../img/swarerouterv6.png'
-import rickandmorty from'../../img/rickandmorty.png'
+import React from "react";
+import "./PortfolioCards.css";
+import vintagepilcha from "../../img/vintagepilcha.png";
+import tasklist1 from "../../img/tasklist1.png";
+import estudiojuridico from "../../img/estudioju2.png";
+import portfoliobt from "../../img/portfoliobootstrap.png";
+import sistemasolar from "../../img/sistemaSolar.png";
+import cannabisoil from "../../img/cannabisoilarg.png";
+import swarerouter from "../../img/swarerouterv6.png";
+import rickandmorty from "../../img/rickandmorty.png";
 
-import {FaGithub,FaLaptopCode } from 'react-icons/fa';
-
+import { FaGithub, FaLaptopCode } from "react-icons/fa";
 
 const PortfolioCards = () => {
   return (
     <div className="contenedor">
       <div className="galeria-port">
         <div className="imagen-port">
-          <img src={cannabisoil} alt="" />
+          <img src={swarerouter} alt="Swaregrap routerv6" />
           <div className="hover-galeria">
-            <h2>Cannabis Oil Arg.</h2>
-            <p>Venta de aceites medicinales</p>
+            <h2>Swaregrap</h2>
+            <p>Desarrollo Web SPA ReactRouterv6</p>
             <div className="demo1">
               <a
                 className="demo-project"
-                href="https://cannabis-oil-arg.vercel.app/"
+                href="https://swaregrap-reactrouterv6.vercel.app"
               >
                 <FaLaptopCode className="laptop" />
               </a>
               <a
                 className="demo-project"
-                href="https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
+                href="https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
               >
                 <FaGithub className="github" />
               </a>
@@ -61,6 +60,28 @@ const PortfolioCards = () => {
         </div>
 
         <div className="imagen-port">
+          <img src={cannabisoil} alt="" />
+          <div className="hover-galeria">
+            <h2>Cannabis Oil Arg.</h2>
+            <p>Venta de aceites medicinales</p>
+            <div className="demo1">
+              <a
+                className="demo-project"
+                href="https://cannabis-oil-arg.vercel.app/"
+              >
+                <FaLaptopCode className="laptop" />
+              </a>
+              <a
+                className="demo-project"
+                href="https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
+              >
+                <FaGithub className="github" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="imagen-port">
           <img src={estudiojuridico} alt="MPP Abogados" />
           <div className="hover-galeria">
             <h2>MPP Abogados</h2>
@@ -83,20 +104,20 @@ const PortfolioCards = () => {
         </div>
 
         <div className="imagen-port">
-          <img src={swarerouter} alt="Swaregrap routerv6" />
+          <img src={sistemasolar} alt="Portfolio in Bootstrap" />
           <div className="hover-galeria">
-            <h2>Swaregrap</h2>
-            <p>Desarrollo Web SPA ReactRouterv6</p>
+            <h2>APP Sistema Solar</h2>
+            <p>Proyecto colaborativo para PrimerEmpleoIT</p>
             <div className="demo1">
               <a
                 className="demo-project"
-                href="https://swaregrap-reactrouterv6.vercel.app"
+                href="https://peit-react2-solar-system-app.vercel.app/"
               >
                 <FaLaptopCode className="laptop" />
               </a>
               <a
                 className="demo-project"
-                href="https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
+                href="https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app/"
               >
                 <FaGithub className="github" />
               </a>
@@ -150,28 +171,6 @@ const PortfolioCards = () => {
         </div>
 
         <div className="imagen-port">
-          <img src={sistemasolar} alt="Portfolio in Bootstrap" />
-          <div className="hover-galeria">
-            <h2>APP Sistema Solar</h2>
-            <p>Proyecto colaborativo para PrimerEmpleoIT</p>
-            <div className="demo1">
-              <a
-                className="demo-project"
-                href="https://peit-react2-solar-system-app.vercel.app/"
-              >
-                <FaLaptopCode className="laptop" />
-              </a>
-              <a
-                className="demo-project"
-                href="https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app/"
-              >
-                <FaGithub className="github" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="imagen-port">
           <img src={portfoliobt} alt="Portfolio" />
           <div className="hover-galeria">
             <h2>Portfolio Bootstrap</h2>
@@ -195,6 +194,6 @@ const PortfolioCards = () => {
       </div>
     </div>
   );
-}
+};
 
 export default PortfolioCards;
