@@ -9,6 +9,7 @@ import Contact from "../contact/Contact.jsx";
 import TypeIt from "typeit-react";
 import Modal from "../../components/modalProjects/Modal";
 import useModal from "../../hooks/useModal";
+
 const Portada = () => {
 
   const [isOpenModal, openModal, closeModal] = useModal();
