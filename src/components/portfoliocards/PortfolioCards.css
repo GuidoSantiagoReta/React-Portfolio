@@ -1,5 +1,8 @@
 
 
+
+
+
 .galeria-port {
     display: flex;
     justify-content: space-evenly;
@@ -125,6 +128,15 @@
 }
 
 /*MEDIAQUERIES*/
+
+@media only screen and (min-width: 1201px){
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+}
 
 
 

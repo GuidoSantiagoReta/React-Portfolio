@@ -186,6 +186,24 @@
      } 
 }
 
+@media only screen and (max-width: 600px) {
+    .portada-container>h1 {
+      font-size: 30px;
+    }
+    .portada-container>p {
+      font-size: 15px;
+    }
+    .projects-btn {
+      width: 60px;
+      height: 35px;
+    }
+    .projects-btn>h4 {
+      font-size: 10px;
+    }
+    .typeit-cursor {
+      --ti-cursor-font-size: 15px;
+    }
+  }
 
 
 @media (max-width:320px){
@@ -211,9 +229,13 @@
     }
 
     .projects-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 60px;
         height: 30px;
-        top: 68%;
+        padding: 5px; 
+        line-height: 1.2; 
     }
     .projects-btn>h4{
      
