@@ -14,7 +14,7 @@
 .imagen-port {
     width: 24%;
     margin-bottom: 50px;
-    height: 285px;
+    height: 185px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -61,7 +61,7 @@
     padding-top: 8px;
     color: #fff;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .imagen-port:hover .hover-galeria {
