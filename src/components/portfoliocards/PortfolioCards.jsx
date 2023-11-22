@@ -1,6 +1,5 @@
 import React from "react";
 import "./PortfolioCards.css";
-import vintagepilcha from "../../img/vintagepilcha.png";
 import tasklist1 from "../../img/tasklist1.png";
 import estudiojuridico from "../../img/estudioju2.png";
 import portfoliobt from "../../img/portfoliobootstrap.png";
@@ -8,7 +7,7 @@ import sistemasolar from "../../img/sistemaSolar.png";
 import cannabisoil from "../../img/cannabisoilarg.png";
 import swarerouter from "../../img/swarerouterv6.png";
 import rickandmorty from "../../img/rickandmorty.png";
-
+import shiftciclo from "../../img/shiftciclo.png"
 import { FaGithub, FaLaptopCode } from "react-icons/fa";
 
 const PortfolioCards = () => {
@@ -148,21 +147,21 @@ const PortfolioCards = () => {
         </div>
 
         <div className="imagen-port">
-          <img src={vintagepilcha} alt="Vintage Pilcha" />
+          <img src={shiftciclo} alt="Vintage Pilcha" />
           <div className="hover-galeria">
-            <h2>Vintage Pilcha</h2>
-            <p>Diseño de tienda de venta de ropa vintage</p>
-            {/*utilizando react icons en forma de componentes*/}
+            <h2>Shift Ciclo</h2>
+            <p>Desarrollo de SPA con React</p>
+
             <div className="demo1">
               <a
                 className="demo-project"
-                href="https://vintage-pilcha.netlify.app/"
+                href="https://shift-ciclo.vercel.app"
               >
                 <FaLaptopCode className="laptop" />
               </a>
               <a
                 className="demo-project"
-                href="https://github.com/GuidoSantiagoReta/Vintage-Pilcha"
+                href=""
               >
                 <FaGithub className="github" />
               </a>

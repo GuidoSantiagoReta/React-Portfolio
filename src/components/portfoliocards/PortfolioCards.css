@@ -129,6 +129,24 @@
 
 /*MEDIAQUERIES*/
 
+@media only screen and (min-width: 1700px){
+    .imagen-port {
+        width: 24%;
+        margin-bottom: 50px;
+        height: 285px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, .5);
+    
+    }
+
+    .hover-galeria>p {
+        font-size: 18px;
+    }
+}
+
+
 @media only screen and (min-width: 1201px){
     .contenedor {
         display: flex;
