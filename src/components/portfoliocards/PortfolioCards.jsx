@@ -14,7 +14,7 @@ const PortfolioCards = () => {
   return (
     <div className="contenedor">
       <div className="galeria-port">
-        <div className="imagen-port">
+        <div className="imagen-port hvr-shrink">
           <img src={swarerouter} alt="Swaregrap routerv6" />
           <div className="hover-galeria">
             <h2>Swaregrap</h2>
@@ -36,7 +36,7 @@ const PortfolioCards = () => {
           </div>
         </div>
 
-        <div className="imagen-port">
+        <div className="imagen-port hvr-shrink">
           <img src={rickandmorty} alt="Rick and Morty" />
           <div className="hover-galeria">
             <h2>Rick and Morty App</h2>
@@ -58,7 +58,7 @@ const PortfolioCards = () => {
           </div>
         </div>
 
-        <div className="imagen-port">
+        <div className="imagen-port hvr-shrink">
           <img src={cannabisoil} alt="" />
           <div className="hover-galeria">
             <h2>Cannabis Oil Arg.</h2>
@@ -80,7 +80,7 @@ const PortfolioCards = () => {
           </div>
         </div>
 
-        <div className="imagen-port">
+        <div className="imagen-port hvr-shrink">
           <img src={estudiojuridico} alt="MPP Abogados" />
           <div className="hover-galeria">
             <h2>MPP Abogados</h2>
@@ -102,7 +102,7 @@ const PortfolioCards = () => {
           </div>
         </div>
 
-        <div className="imagen-port">
+        <div className="imagen-port hvr-shrink">
           <img src={sistemasolar} alt="Portfolio in Bootstrap" />
           <div className="hover-galeria">
             <h2>APP Sistema Solar</h2>
@@ -124,7 +124,7 @@ const PortfolioCards = () => {
           </div>
         </div>
 
-        <div className="imagen-port">
+        <div className="imagen-port hvr-shrink">
           <img src={tasklist1} alt="TO-DO List in React" />
           <div className="hover-galeria">
             <h2>TO-DO List React.js</h2>
@@ -146,7 +146,7 @@ const PortfolioCards = () => {
           </div>
         </div>
 
-        <div className="imagen-port">
+        <div className="imagen-port hvr-shrink">
           <img src={shiftciclo} alt="Vintage Pilcha" />
           <div className="hover-galeria">
             <h2>Shift Ciclo</h2>
@@ -169,7 +169,7 @@ const PortfolioCards = () => {
           </div>
         </div>
 
-        <div className="imagen-port">
+        <div className="imagen-port hvr-shrink">
           <img src={portfoliobt} alt="Portfolio" />
           <div className="hover-galeria">
             <h2>Portfolio Bootstrap</h2>

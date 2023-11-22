@@ -26,7 +26,7 @@ const Portada = () => {
         <img src={reacticon} id='inverse-rotation' alt="react"/>
         </div>
         
-        <button className="projects-btn" onClick={openModal}>
+        <button className="projects-btn hvr-pulse-shrink" onClick={openModal}>
         <h4>Projects</h4>
       </button>
       <Modal isOpen={isOpenModal} closeModal={closeModal} />

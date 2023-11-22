@@ -7,7 +7,7 @@
  ### Transiciones y animaciones: 
  - Typeit.js.
  - Animate.css.
-
+ - hover.css.
 
  ### Deploy en Vercel:![v](https://user-images.githubusercontent.com/46303885/213818883-0fa70126-1ea4-4c5d-9a16-71fd2e1ce871.png)
  - Instalación mediante CLI de vercel.
