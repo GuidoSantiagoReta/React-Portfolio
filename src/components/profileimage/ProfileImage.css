@@ -1,0 +1,28 @@
+.profileImage {
+    height: 250px;
+    max-width: 250px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(142, 142, 142);
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position: center;
+    margin: 20px;
+ }
+ 
+ .profileImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ @media (max-width: 600px) {
+    .profileImage {
+        margin: 10px; 
+        max-width: 180px;
+        max-height: 180px;
+    }
+
+ }

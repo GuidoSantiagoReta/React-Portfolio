@@ -9,6 +9,7 @@ import Contact from "../contact/Contact.jsx";
 import TypeIt from "typeit-react";
 import Modal from "../../components/modalProjects/Modal";
 import useModal from "../../hooks/useModal";
+import ProfileImage from "../profileimage/ProfileImage.jsx";
 
 const Portada = () => {
 
@@ -17,6 +18,7 @@ const Portada = () => {
     <div className="portada-container">
   
       <video className="video" src={port} autoPlay loop muted></video>
+      <ProfileImage/>
       <h1>Guido Santiago Reta</h1>
      <p><TypeIt className="typeit-cursor" options={{loop: true}}><span className="html">Frontend</span> Developer | <span className="javascript">JavaScript</span> | <span className="react">React.js</span></TypeIt></p>
       <div className="icons-container">
