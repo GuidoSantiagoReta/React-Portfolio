@@ -18,7 +18,7 @@ const Portada = () => {
   return (
     <React.Suspense fallback={<div></div>}>
       <div className="portada-container">
-        <video className="video" src={port} autoPlay loop muted></video>
+        <video className="video" src={port} autoPlay loop muted preload="auto"></video>
         <ProfileImage/>
         <h1>Guido Santiago Reta</h1>
         <p>
