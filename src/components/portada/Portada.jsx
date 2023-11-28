@@ -17,7 +17,7 @@ const Portada = () => {
   return (
     <div className="portada-container">
   
-      <video className="video" src={port} autoPlay loop muted></video>
+      <video className="video" src={port} autoPlay loop muted preload="auto"></video>
       <ProfileImage/>
       <h1>Guido Santiago Reta</h1>
      <p><TypeIt className="typeit-cursor" options={{loop: true}}><span className="html">Frontend</span> Developer | <span className="javascript">JavaScript</span> | <span className="react">React.js</span></TypeIt></p>
