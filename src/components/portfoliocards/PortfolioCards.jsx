@@ -11,188 +11,97 @@ import shiftciclo from "../../img/shiftciclo.png"
 import { FaGithub, FaLaptopCode } from "react-icons/fa";
 
 const PortfolioCards = () => {
+  const portfolioData = [
+    {
+      image: swarerouter,
+      altText: "Swaregrap routerv6",
+      title: "Swaregrap",
+      description: "Desarrollo Web SPA ReactRouterv6",
+      demoUrl: "https://swaregrap-reactrouterv6.vercel.app",
+      codeUrl: "https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
+    },
+    {
+      image: rickandmorty,
+      altText: "Rick and Morty",
+      title: "Rick and Morty App",
+      description: "Consumo de la API de Rick and Morty",
+      demoUrl: "https://rick-and-morty-app-pearl.vercel.app/",
+      codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
+    },
+    {
+      image: cannabisoil,
+      altText: "CannabisOilArg",
+      title: "Cannabis Oil Arg.",
+      description: "Venta de aceites medicinales",
+      demoUrl: "https://cannabis-oil-arg.vercel.app",
+      codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
+    },
+    {
+      image: estudiojuridico,
+      altText: "MPP Abogados",
+      title: "MPP Abogados",
+      description: "Desarrollo de Estudio Jurídico Integral",
+      demoUrl: "https://mppabogados.netlify.app",
+      codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"
+    },
+    {
+      image: sistemasolar,
+      altText: "APP Sistema Solar",
+      title: "APP Sistema Solar",
+      description: "PWA con React.js, Next.js y TypeScript",
+      demoUrl: "https://peit-react2-solar-system-app.vercel.app/",
+      codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"
+    },
+    {
+      image: tasklist1,
+      altText: "TO-DO List en React",
+      title: "TO-DO List React.js",
+      description: "Lista de tareas realizada en React.js",
+      demoUrl: "https://guidosantiagoreta.github.io/To-Do-List",
+      codeUrl: "https://github.com/GuidoSantiagoReta/To-Do-List"
+    },
+    {
+      image: shiftciclo,
+      altText: "Shift.Ciclo",
+      title: "Desarrollo de SPA con React",
+      description: "Desarrollo Web SPA ReactRouterv6",
+      demoUrl: "https://shift-ciclo.vercel.app/",
+      codeUrl: ""
+    },
+    {
+      image: portfoliobt,
+      altText: "Portfolio Bootstrap",
+      title: "Portfolio Bootstrap",
+      description: "Portfolio realizado con Bootstrap",
+      demoUrl: "https://guidosantiagoreta.netlify.app",
+      codeUrl: "https://github.com/GuidoSantiagoReta/portfoliobt"
+    },
+  ];
+
+
   return (
-    <div className="contenedor">
-      <div className="galeria-port">
-        <div className="imagen-port hvr-shrink">
-          <img src={swarerouter} alt="Swaregrap routerv6" />
-          <div className="hover-galeria">
-            <h2>Swaregrap</h2>
-            <p>Desarrollo Web SPA ReactRouterv6</p>
-            <div className="demo1">
-              <a
-                className="demo-project"
-                href="https://swaregrap-reactrouterv6.vercel.app"
-              >
-                <FaLaptopCode className="laptop" />
-              </a>
-              <a
-                className="demo-project"
-                href="https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
-              >
-                <FaGithub className="github" />
-              </a>
+      <div className="contenedor">
+        <div className="galeria-port">
+          {portfolioData.map((card, index) => (
+            <div className="imagen-port hvr-shrink" key={index}>
+              <img src={card.image} alt={card.altText} />
+              <div className="hover-galeria">
+                <h2>{card.title}</h2>
+                <p>{card.description}</p>
+                <div className="demo1">
+                  <a className="demo-project" href={card.demoUrl}>
+                    <FaLaptopCode className="laptop" />
+                  </a>
+                  <a className="demo-project" href={card.codeUrl}>
+                    <FaGithub className="github" />
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div className="imagen-port hvr-shrink">
-          <img src={rickandmorty} alt="Rick and Morty" />
-          <div className="hover-galeria">
-            <h2>Rick and Morty App</h2>
-            <p>Consumo de la API de Rick and Morty</p>
-            <div className="demo1">
-              <a
-                className="demo-project"
-                href="https://rick-and-morty-app-pearl.vercel.app/"
-              >
-                <FaLaptopCode className="laptop" />
-              </a>
-              <a
-                className="demo-project"
-                href="https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
-              >
-                <FaGithub className="github" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="imagen-port hvr-shrink">
-          <img src={cannabisoil} alt="" />
-          <div className="hover-galeria">
-            <h2>Cannabis Oil Arg.</h2>
-            <p>Venta de aceites medicinales</p>
-            <div className="demo1">
-              <a
-                className="demo-project"
-                href="https://cannabis-oil-arg.vercel.app/"
-              >
-                <FaLaptopCode className="laptop" />
-              </a>
-              <a
-                className="demo-project"
-                href="https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
-              >
-                <FaGithub className="github" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="imagen-port hvr-shrink">
-          <img src={estudiojuridico} alt="MPP Abogados" />
-          <div className="hover-galeria">
-            <h2>MPP Abogados</h2>
-            <p>Desarrollo de Estudio Jurídico integral</p>
-            <div className="demo1">
-              <a
-                className="demo-project"
-                href="https://mppabogados.netlify.app/"
-              >
-                <FaLaptopCode className="laptop" />
-              </a>
-              <a
-                className="demo-project"
-                href="https://github.com/GuidoSantiagoReta/MPP-Abogados"
-              >
-                <FaGithub className="github" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="imagen-port hvr-shrink">
-          <img src={sistemasolar} alt="Portfolio in Bootstrap" />
-          <div className="hover-galeria">
-            <h2>APP Sistema Solar</h2>
-            <p>Proyecto colaborativo para PrimerEmpleoIT</p>
-            <div className="demo1">
-              <a
-                className="demo-project"
-                href="https://peit-react2-solar-system-app.vercel.app/"
-              >
-                <FaLaptopCode className="laptop" />
-              </a>
-              <a
-                className="demo-project"
-                href="https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app/"
-              >
-                <FaGithub className="github" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="imagen-port hvr-shrink">
-          <img src={tasklist1} alt="TO-DO List in React" />
-          <div className="hover-galeria">
-            <h2>TO-DO List React.js</h2>
-            <p>Lista de tareas realizada en React.js</p>
-            <div className="demo1">
-              <a
-                className="demo-project"
-                href="https://guidosantiagoreta.github.io/To-Do-List/"
-              >
-                <FaLaptopCode className="laptop" />
-              </a>
-              <a
-                className="demo-project"
-                href="https://github.com/GuidoSantiagoReta/To-Do-List"
-              >
-                <FaGithub className="github" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="imagen-port hvr-shrink">
-          <img src={shiftciclo} alt="Vintage Pilcha" />
-          <div className="hover-galeria">
-            <h2>Shift Ciclo</h2>
-            <p>Desarrollo de SPA con React</p>
-
-            <div className="demo1">
-              <a
-                className="demo-project"
-                href="https://shift-ciclo.vercel.app"
-              >
-                <FaLaptopCode className="laptop" />
-              </a>
-              <a
-                className="demo-project"
-                href=""
-              >
-                <FaGithub className="github" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="imagen-port hvr-shrink">
-          <img src={portfoliobt} alt="Portfolio" />
-          <div className="hover-galeria">
-            <h2>Portfolio Bootstrap</h2>
-            <p>Portfolio realizado con bootstrap </p>
-            <div className="demo1">
-              <a
-                className="demo-project"
-                href="https://guidosantiagoreta.netlify.app/"
-              >
-                <FaLaptopCode className="laptop" />
-              </a>
-              <a
-                className="demo-project"
-                href="https://github.com/GuidoSantiagoReta/portfoliobt"
-              >
-                <FaGithub className="github" />
-              </a>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
 
 export default PortfolioCards;
