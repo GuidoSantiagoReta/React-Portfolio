@@ -63,8 +63,8 @@ const PortfolioCards = () => {
     {
       image: shiftciclo,
       altText: "Shift.Ciclo",
-      title: "Desarrollo de SPA con React",
-      description: "Desarrollo Web SPA ReactRouterv6",
+      title: "Desarrollo de SPA",
+      description: "Fiesta Shift.Ciclo",
       demoUrl: "https://shift-ciclo.vercel.app/",
       codeUrl: ""
     },
