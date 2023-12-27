@@ -46,11 +46,16 @@
 .react{
     color:#61dafb;
 }
-
+.node{
+   color: #026e00;
+}
+.csharp{
+    color: #512bd4;
+}
 /*TIPEIT CURSOR*/
 .typeit-cursor{
     --ti-cursor-color: rgb(184, 108, 1);
-    --ti-cursor-font-size: 25px
+    --ti-cursor-font-size: 25px;
 }
 
 /*PROJECTS BUTTON*/
@@ -118,10 +123,20 @@
     animation-direction: alternate;
   }
 /*ICONS PROGRAMMER*/
-.icons-container{
+.icons-container {
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+  
+ }
+
+ #rot, #inverse-rotation {
+    transform-origin: center;
+    animation-name: rotate, inverse-rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+ }
 .icons-container>img{
     width: 30px;
    margin-top: 20px;
