@@ -11,7 +11,7 @@ const Modal = ({isOpen, closeModal, children}) => {
       <div className={` animate__animated animate__fadeIn modal ${isOpen && 'open-modal'}`}>    
        <div className='modal_content'>
      
-        <h2  onClick={closeModal}><FaWindowClose className='close'/></h2>
+        <h2  onClick={closeModal}><FaWindowClose className='close hvr-shrink'/></h2>
         
         {children}
        {/*modal-projects */}
