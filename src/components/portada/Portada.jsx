@@ -22,7 +22,7 @@ const Portada = () => {
       <video className="video" src={port} autoPlay loop muted preload="auto"></video>
       <ProfileImage/>
       <h1>Guido Santiago Reta</h1>
-     <p><TypeIt className="typeit-cursor" options={{loop: true}}><span className="analista">Analista de Sistemas</span> | <span className="html">Developer</span> | <span className="javascript">JavaScript</span> | <span className="react">React.js</span> | <span className="node">Node.js</span> | <span className="csharp">C#</span></TypeIt></p>
+     <p><TypeIt className="typeit-cursor" options={{loop: true}}><span className="html">Developer</span> | <span className="javascript">JavaScript</span> | <span className="react">React.js</span> | <span className="node">Node.js</span> | <span className="csharp">C#</span></TypeIt></p>
       <div className="icons-container">
         <img src={html5} id='rot' alt="html5"/>
         <img src={css3} id='inverse-rotation' alt="ccs3"/>
