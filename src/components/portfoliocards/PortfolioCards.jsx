@@ -2,16 +2,25 @@ import React from "react";
 import "./PortfolioCards.css";
 import tasklist1 from "../../img/tasklist1.png";
 import estudiojuridico from "../../img/estudioju2.png";
-import portfoliobt from "../../img/portfoliobootstrap.png";
 import sistemasolar from "../../img/sistemaSolar.png";
 import cannabisoil from "../../img/cannabisoilarg.png";
 import swarerouter from "../../img/swarerouterv6.png";
 import rickandmorty from "../../img/rickandmorty.png";
 import shiftciclo from "../../img/shiftciclo.png"
+import bancamv from "../../img/banca.PNG"
+
 import { FaGithub, FaLaptopCode } from "react-icons/fa";
 
 const PortfolioCards = () => {
   const portfolioData = [
+    {
+      image: bancamv,
+      altText: "BancaMV",
+      title: "BancaMV",
+      description: "SPA bancaria con next, TypeScript y tailwind.css",
+      demoUrl: "https://banca-mv.vercel.app/",
+      codeUrl: "https://github.com/GuidoSantiagoReta/BancaMV"
+    },
     {
       image: swarerouter,
       altText: "Swaregrap routerv6",
@@ -32,18 +41,11 @@ const PortfolioCards = () => {
       image: cannabisoil,
       altText: "CannabisOilArg",
       title: "Cannabis Oil Arg.",
-      description: "Venta de aceites medicinales",
+      description: "Venta de aceites medicinales con React.js",
       demoUrl: "https://cannabis-oil-arg.vercel.app",
       codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
     },
-    {
-      image: estudiojuridico,
-      altText: "MPP Abogados",
-      title: "MPP Abogados",
-      description: "Desarrollo de Estudio Jurídico Integral",
-      demoUrl: "https://mppabogados.netlify.app",
-      codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"
-    },
+
     {
       image: sistemasolar,
       altText: "APP Sistema Solar",
@@ -69,13 +71,13 @@ const PortfolioCards = () => {
       codeUrl: ""
     },
     {
-      image: portfoliobt,
-      altText: "Portfolio Bootstrap",
-      title: "Portfolio Bootstrap",
-      description: "Portfolio realizado con Bootstrap",
-      demoUrl: "https://guidosantiagoreta.netlify.app",
-      codeUrl: "https://github.com/GuidoSantiagoReta/portfoliobt"
-    },
+      image: estudiojuridico,
+      altText: "MPP Abogados",
+      title: "MPP Abogados",
+      description: "Desarrollo de Estudio Jurídico Integral",
+      demoUrl: "https://mppabogados.netlify.app",
+      codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"
+    }
   ];
 
 
