@@ -17,7 +17,7 @@ const PortfolioCards = () => {
       image: bancamv,
       altText: "BancaMV",
       title: "BancaMV",
-      description: "SPA bancaria con next, TypeScript y tailwind.css",
+      description: "SPA bancaria con Next, TypeScript y Tailwind.css",
       demoUrl: "https://banca-mv.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/BancaMV"
     },
