@@ -30,14 +30,6 @@ const PortfolioCards = () => {
       codeUrl: "https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
     },
     {
-      image: rickandmorty,
-      altText: "Rick and Morty",
-      title: "Rick and Morty App",
-      description: "Consumo de la API de Rick and Morty",
-      demoUrl: "https://rick-and-morty-app-pearl.vercel.app/",
-      codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
-    },
-    {
       image: cannabisoil,
       altText: "CannabisOilArg",
       title: "Cannabis Oil Arg.",
@@ -45,7 +37,6 @@ const PortfolioCards = () => {
       demoUrl: "https://cannabis-oil-arg.vercel.app",
       codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
     },
-
     {
       image: sistemasolar,
       altText: "APP Sistema Solar",
@@ -53,14 +44,6 @@ const PortfolioCards = () => {
       description: "PWA con React.js, Next.js y TypeScript",
       demoUrl: "https://peit-react2-solar-system-app.vercel.app/",
       codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"
-    },
-    {
-      image: tasklist1,
-      altText: "TO-DO List en React",
-      title: "TO-DO List React.js",
-      description: "Lista de tareas realizada en React.js",
-      demoUrl: "https://guidosantiagoreta.github.io/To-Do-List",
-      codeUrl: "https://github.com/GuidoSantiagoReta/To-Do-List"
     },
     {
       image: shiftciclo,
@@ -77,7 +60,24 @@ const PortfolioCards = () => {
       description: "Desarrollo de Estudio Jurídico Integral",
       demoUrl: "https://mppabogados.netlify.app",
       codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"
+    },
+    {
+      image: rickandmorty,
+      altText: "Rick and Morty",
+      title: "Rick and Morty App",
+      description: "Consumo de la API de Rick and Morty",
+      demoUrl: "https://rick-and-morty-app-pearl.vercel.app/",
+      codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
+    },
+    {
+      image: tasklist1,
+      altText: "TO-DO List en React",
+      title: "TO-DO List React.js",
+      description: "Lista de tareas realizada en React.js",
+      demoUrl: "https://guidosantiagoreta.github.io/To-Do-List",
+      codeUrl: "https://github.com/GuidoSantiagoReta/To-Do-List"
     }
+
   ];
 
 
