@@ -37,15 +37,16 @@
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(184, 108, 1, 0.877);
+    background: rgb(98 98 98 / 88%);
     transition: transform 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    
 
 }
+
 
 .hover-galeria img {
 
@@ -54,11 +55,11 @@
 }
 
 .hover-galeria>h2 {
-    color: rgb(15, 15, 15)
+    color: rgb(0, 0, 0)
 }
 
 .hover-galeria>p {
-    padding-top: 8px;
+    padding-top: 15px;
     color: #fff;
     font-weight: 400;
     font-size: 14px;
@@ -105,6 +106,7 @@
 
 .demo1 {
     display: flex;
+    
 
 }
 
@@ -115,7 +117,7 @@
 }
 
 .laptop {
-    color:#61dafb;
+    color:#13bbf3;
     width: 40px;
     height: 40px;
 
@@ -125,6 +127,14 @@
     color: rgb(12, 12, 12);
     width: 40px;
     height: 40px;
+}
+
+
+.laptop:hover{
+    color:rgba(19,187,243,.5);
+}
+.github:hover{
+    color: rgb(12, 12, 12,.5);
 }
 
 /* Shrink */
@@ -301,6 +311,17 @@
         font-weight: 400;
         font-size: 12px;
     }
+
+    .laptop {
+        width: 30px;
+        height: 30px;
+    
+    }
+    
+    .github {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 
@@ -324,5 +345,15 @@
     .hover-galeria>p {
        
         font-size: 11px;
+    }
+    .laptop {
+        width: 30px;
+        height: 30px;
+    
+    }
+    
+    .github {
+        width: 30px;
+        height: 30px;
     }
 }

@@ -42,14 +42,14 @@
     display:flex;
     position: absolute;
     right: 60px;
-    color: rgb(184, 108, 1);
+    color: rgb(255, 255, 255);
     width: 26px;
     height: 30px;
  
     
   }
   .close:hover{
-    color:#ffffff;
+    color:rgba(255, 255, 255,.5);
   }
 
   /* Shrink */
