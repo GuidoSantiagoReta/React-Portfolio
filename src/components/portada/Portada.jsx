@@ -16,13 +16,13 @@ import ProfileImage from "../profileimage/ProfileImage.jsx";
 const Portada = () => {
 
   const [isOpenModal, openModal, closeModal] = useModal();
-  return (
+   return (
     <div className="portada-container">
   
       <video className="video" src={port} autoPlay loop muted preload="auto"></video>
       <ProfileImage/>
       <h1>Guido Santiago Reta</h1>
-     <p><TypeIt className="typeit-cursor" options={{loop: true}}><span className="html">Developer</span> | <span className="javascript">JavaScript</span> | <span className="react">React.js</span> | <span className="node">Node.js</span> | <span className="csharp">C#</span></TypeIt></p>
+      <p><TypeIt className="typeit-cursor" options={{loop: true}}><span className="html">Developer</span> | <span className="javascript">JavaScript</span> | <span className="react">React.js</span> | <span className="node">Node.js</span> | <span className="csharp">C#</span></TypeIt></p>
       <div className="icons-container">
         <img src={html5} id='rot' alt="html5"/>
         <img src={css3} id='inverse-rotation' alt="ccs3"/>
@@ -30,9 +30,8 @@ const Portada = () => {
         <img src={reacticon} id='inverse-rotation' alt="react"/>
         <img src={node} id='rot' alt="node"/>
         <img src={csharp} id='inverse-rotation' alt="csharp"/>
-        </div>
-        
-        <button className="projects-btn hvr-pulse-shrink" onClick={openModal}>
+      </div> 
+      <button className="projects-btn hvr-pulse-shrink" onClick={openModal}>
         <h4>Projects</h4>
       </button>
       <Modal isOpen={isOpenModal} closeModal={closeModal} />
