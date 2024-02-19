@@ -3,7 +3,7 @@ import './ProfileImage.css';
 import profileImage from '../../img/profileimage.jfif';
 
 
-
+//probando nuevo cambios
 const ProfileImage = () => {
   return (
   <div className="profileImage">                
