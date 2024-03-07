@@ -1,24 +1,26 @@
 /*CONTACT LINKS*/
 
 
-.links{
+.links {
     display: flex;
-    top:80%;
- 
-   
-    
+    top: 80%;
+
+
+
 }
-.links>a{
-   
+
+.links>a {
+
     text-align: center;
     text-decoration: none;
-    cursor:pointer;
-    color:rgb(142, 142, 142);
+    cursor: pointer;
+    color: rgb(142, 142, 142);
     padding: 0 4px;
     font-size: 25px;
-    
+
 }
-.links>a:hover{
+
+.links>a:hover {
     transition: all 0.3s ease;
     transform: scale(1.3);
     color: rgba(255, 255, 255, 0.337);
@@ -26,13 +28,13 @@
 
 
 @media only screen and (max-width:768px) {
-    .links>a{
-        font-size:20px;
+    .links>a {
+        font-size: 20px;
     }
 }
 
-@media only screen and (min-width:301px)and (max-width:620px){
-    .links{ 
-        top:75%;
+@media only screen and (min-width:301px)and (max-width:620px) {
+    .links {
+        top: 75%;
     }
 }

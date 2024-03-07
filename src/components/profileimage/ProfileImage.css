@@ -1,48 +1,50 @@
 .profileImage {
-    height: 250px;
-    max-width: 250px;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   height: 250px;
+   max-width: 250px;
+   overflow: hidden;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
-    border-radius: 50%; 
-    object-fit: cover;
-    object-position: center;
-    margin: 20px;
- }
- 
- .profileImage img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
- }
+   border-radius: 50%;
+   object-fit: cover;
+   object-position: center;
+   margin: 20px;
+}
+
+.profileImage img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
 
 
- .profileImage img:hover {
+.profileImage img:hover {
    transform: scaleX(-1);
-} 
- @media (max-width: 600px) {
-  
-   
-    .profileImage {
-        margin: 10px; 
-        max-width: 180px;
-        max-height: 180px;
-       
-    }
-   
- }
- @media (max-width: 200px) {
+}
+
+@media (max-width: 600px) {
+
+
+   .profileImage {
+      margin: 10px;
+      max-width: 180px;
+      max-height: 180px;
+
+   }
+
+}
+
+@media (max-width: 200px) {
    .profileImage {
       max-width: 150px;
       max-height: 150px;
-     }
-     
-     .profileImage img {
+   }
+
+   .profileImage img {
       max-width: 100%;
       max-height: 100%;
-     }
-    
- }
+   }
+
+}
