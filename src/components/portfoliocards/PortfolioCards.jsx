@@ -1,6 +1,6 @@
 import React from "react";
 import "./PortfolioCards.css";
-import tasklist1 from "../../img/tasklist1.png";
+import blogdecodigo from "../../img/blogdecodigo.png";
 import estudiojuridico from "../../img/estudioju2.png";
 import sistemasolar from "../../img/sistemaSolar.png";
 import cannabisoil from "../../img/cannabisoilarg.png";
@@ -70,12 +70,12 @@ const PortfolioCards = () => {
       codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
     },
     {
-      image: tasklist1,
-      altText: "TO-DO List en React",
-      title: "TO-DO List React.js",
-      description: "Lista de tareas realizada en React.js",
-      demoUrl: "https://guidosantiagoreta.github.io/To-Do-List",
-      codeUrl: "https://github.com/GuidoSantiagoReta/To-Do-List"
+      image: blogdecodigo,
+      altText: "BlogDeCódigo",
+      title: "BlogDeCódigo",
+      description: "Blog personal realizado en React.js",
+      demoUrl: "https://blogdecodigo.vercel.app/",
+      codeUrl: "https://github.com/GuidoSantiagoReta/BlogDeCodigo"
     }
 
   ];
