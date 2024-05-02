@@ -30,14 +30,6 @@ const PortfolioCards = () => {
       codeUrl: "https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
     },
     {
-      image: cannabisoil,
-      altText: "CannabisOilArg",
-      title: "Cannabis Oil Arg.",
-      description: "Venta de aceites medicinales con React.js",
-      demoUrl: "https://cannabis-oil-arg.vercel.app",
-      codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
-    },
-    {
       image: sistemasolar,
       altText: "APP Sistema Solar",
       title: "APP Sistema Solar",
@@ -60,6 +52,14 @@ const PortfolioCards = () => {
       description: "Desarrollo de Estudio Jurídico Integral",
       demoUrl: "https://mppabogados.netlify.app",
       codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"
+    },
+    {
+      image: cannabisoil,
+      altText: "CannabisOilArg",
+      title: "Cannabis Oil Arg.",
+      description: "Venta de aceites medicinales con React.js",
+      demoUrl: "https://cannabis-oil-arg.vercel.app",
+      codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
     },
     {
       image: rickandmorty,
