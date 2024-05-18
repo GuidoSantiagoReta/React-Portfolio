@@ -13,6 +13,16 @@ import Modal from "../../components/modalProjects/Modal";
 import useModal from "../../hooks/useModal";
 import ProfileImage from "../profileimage/ProfileImage.jsx";
 
+
+const icons = [
+  { src: html5, id: 'rot', alt: "html5" },
+  { src: css3, id: 'inverse-rotation', alt: "css3" },
+  { src: javascript, id: 'rot', alt: "javascript" },
+  { src: reacticon, id: 'inverse-rotation', alt: "react" },
+  { src: node, id: 'rot', alt: "node" },
+  { src: csharp, id: 'inverse-rotation', alt: "csharp" }
+];
+
 const Portada = () => {
 
   const [isOpenModal, openModal, closeModal] = useModal();
@@ -24,12 +34,14 @@ const Portada = () => {
       <h1>Guido Santiago Reta</h1>
       <p><TypeIt className="typeit-cursor" options={{ loop: true }}><span className="html">Developer</span> | <span className="javascript">JavaScript</span> | <span className="react">React.js</span> | <span className="node">Node.js</span> | <span className="csharp">C#</span></TypeIt></p>
       <div className="icons-container">
-        <img src={html5} id='rot' alt="html5" />
-        <img src={css3} id='inverse-rotation' alt="ccs3" />
-        <img src={javascript} id='rot' alt="javascrip" />
-        <img src={reacticon} id='inverse-rotation' alt="react" />
-        <img src={node} id='rot' alt="node" />
-        <img src={csharp} id='inverse-rotation' alt="csharp" />
+        {icons.map((icon, index) => (
+          <img
+            key={index}
+            src={icon.src}
+            id={icon.id}
+            alt={icon.alt}
+          />
+        ))}
       </div>
       <button className="projects-btn hvr-pulse-shrink" onClick={openModal}>
         <h4>Projects</h4>
