@@ -6,6 +6,7 @@ import css3 from "../../img/css3.png";
 import javascript from "../../img/javascript.png";
 import reacticon from "../../img/react.png";
 import node from "../../img/nodejs.png";
+import angular from "../../img/angular.png"
 import csharp from "../../img/csharp.png";
 import Contact from "../contact/Contact.jsx";
 import TypeIt from "typeit-react";
@@ -20,7 +21,10 @@ const icons = [
   { src: javascript, id: 'rot', alt: "javascript" },
   { src: reacticon, id: 'inverse-rotation', alt: "react" },
   { src: node, id: 'rot', alt: "node" },
-  { src: csharp, id: 'inverse-rotation', alt: "csharp" }
+  { src: angular, id:'inverse-rotation', alt: "angular"},
+  { src: csharp, id: 'rot', alt: "csharp" }
+
+
 ];
 
 const Portada = () => {
@@ -32,7 +36,7 @@ const Portada = () => {
       <video className="video" src={port} autoPlay loop muted preload="auto"></video>
       <ProfileImage />
       <h1>Guido Santiago Reta</h1>
-      <p><TypeIt className="typeit-cursor" options={{ loop: true }}><span className="html">Developer</span> | <span className="javascript">JavaScript</span> | <span className="react">React.js</span> | <span className="node">Node.js</span> | <span className="csharp">C#</span></TypeIt></p>
+      <p><TypeIt className="typeit-cursor" options={{ loop: true }}><span className="html">Developer</span> | <span className="javascript">Js</span> | <span className="react">React.js</span> | <span className="node">Node.js</span> | <span className="angular">Angular</span> | <span className="csharp">C#</span></TypeIt></p>
       <div className="icons-container">
         {icons.map((icon, index) => (
           <img
