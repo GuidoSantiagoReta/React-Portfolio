@@ -1,13 +1,13 @@
 import React from "react";
 import "./PortfolioCards.css";
-import blogdecodigo from "../../img/blogdecodigo.png";
-import estudiojuridico from "../../img/estudioju2.png";
-import sistemasolar from "../../img/sistemaSolar.png";
-import cannabisoil from "../../img/cannabisoilarg.png";
-import swarerouter from "../../img/swarerouterv6.png";
-import rickandmorty from "../../img/rickandmorty.png";
-import shiftciclo from "../../img/shiftciclo.png"
-import bancamv from "../../img/banca.PNG"
+import blogdecodigo from "../../assets/blogdecodigo.png";
+import estudiojuridico from "../../assets/estudioju2.png";
+import sistemasolar from "../../assets/sistemaSolar.png";
+import cannabisoil from "../../assets/cannabisoilarg.png";
+import swarerouter from "../../assets/swarerouterv6.png";
+import rickandmorty from "../../assets/rickandmorty.png";
+import shiftciclo from "../../assets/shiftciclo.png";
+import bancamv from "../../assets/banca.PNG";
 
 import { FaGithub, FaLaptopCode } from "react-icons/fa";
 

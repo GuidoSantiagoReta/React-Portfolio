@@ -1,13 +1,13 @@
 import React from 'react';
 import './ProfileImage.css';
-import profileImage from '../../img/profileimage.jfif';
+import profileImage from '../../assets/profileimage.jfif';
 
 
 
 const ProfileImage = () => {
   return (
     <div className="profileImage">
-      <img src={profileImage} />
+      <img src={profileImage} alt="" />
     </div>
   )
 }
