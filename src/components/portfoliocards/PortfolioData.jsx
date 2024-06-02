@@ -1,5 +1,3 @@
-import React from "react";
-
 import blogdecodigo from "../../assets/blogdecodigo.png";
 import estudiojuridico from "../../assets/estudioju2.png";
 import sistemasolar from "../../assets/sistemaSolar.png";
