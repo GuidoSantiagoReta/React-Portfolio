@@ -21,9 +21,9 @@ const PortfolioCards = () => {
                 <a className="demo-project" href={card.demoUrl}>
                   <FaLaptopCode className="laptop" />
                 </a>
-                <a className="demo-project" href={card.codeUrl}>
+                {/*<a className="demo-project" href={card.codeUrl}>
                   <FaGithub className="github" />
-                </a>
+                </a>*/}
               </div>
             </div>
           </div>

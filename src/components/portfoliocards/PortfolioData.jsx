@@ -6,9 +6,19 @@ import swarerouter from "../../assets/swarerouterv6.png";
 import rickandmorty from "../../assets/rickandmorty.png";
 import shiftciclo from "../../assets/shiftciclo.png";
 import bancamv from "../../assets/banca.PNG";
-
+import cosipatitas from "../../assets/cosipatitas.png"
 
 const portfolioData = [
+    
+    {
+      image: cosipatitas,
+      altText: "CosiPatitas",
+      title: "Cosipatitas",
+      description: "Pet Shop desarrollado con Angular 17",
+      demoUrl: "https://cosipatitas.vercel.app",
+      
+    },
+
     {
       image: bancamv,
       altText: "BancaMV",
@@ -36,8 +46,8 @@ const portfolioData = [
     {
       image: shiftciclo,
       altText: "Shift.Ciclo",
-      title: "Desarrollo de SPA",
-      description: "Fiesta Shift.Ciclo",
+      title: "Fiesta Shift",
+      description: "SPA con React.js",
       demoUrl: "https://shift-ciclo.vercel.app/",
       codeUrl: ""
     },
@@ -50,29 +60,33 @@ const portfolioData = [
       codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"
     },
     {
-      image: cannabisoil,
-      altText: "CannabisOilArg",
-      title: "Cannabis Oil Arg.",
-      description: "Venta de aceites medicinales con React.js",
-      demoUrl: "https://cannabis-oil-arg.vercel.app",
-      codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
-    },
-    {
-      image: rickandmorty,
-      altText: "Rick and Morty",
-      title: "Rick and Morty App",
-      description: "Consumo de la API de Rick and Morty",
-      demoUrl: "https://rick-and-morty-app-pearl.vercel.app/",
-      codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
-    },
-    {
       image: blogdecodigo,
       altText: "BlogDeCódigo",
       title: "BlogDeCódigo",
       description: "Blog personal realizado en React.js",
       demoUrl: "https://blogdecodigo.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/BlogDeCodigo"
-    }
+    },
+   
+    {
+      image: rickandmorty,
+      altText: "Rick and Morty",
+      title: "Rick and Morty App",
+      description: "Consumo de API con Fetch y React.js",
+      demoUrl: "https://rick-and-morty-app-pearl.vercel.app/",
+      codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
+    },
+   
 
+
+     /* 
+    {
+      image: cannabisoil,
+      altText: "CannabisOilArg",
+      title: "Cannabis Oil Arg.",
+      description: "Venta de aceites medicinales con React.js",
+      demoUrl: "https://cannabis-oil-arg.vercel.app",
+      codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
+    },*/
   ];
   export default portfolioData;
