@@ -14,7 +14,7 @@ const portfolioData = [
       image: cosipatitas,
       altText: "CosiPatitas",
       title: "Cosipatitas",
-      description: "Pet Shop desarrollado con Angular 17",
+      description: "Pet Shop SPA desarrollada con Angular 17",
       demoUrl: "https://cosipatitas.vercel.app",
       
     },
