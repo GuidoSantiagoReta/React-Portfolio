@@ -13,7 +13,7 @@ const portfolioData = [
     {
       image: cosipatitas,
       altText: "CosiPatitas",
-      title: "Cosipatitas",
+      title: "CosiPatitas",
       description: "Pet Shop SPA desarrollada con Angular 17",
       demoUrl: "https://cosipatitas.vercel.app",
       
@@ -23,7 +23,7 @@ const portfolioData = [
       image: bancamv,
       altText: "BancaMV",
       title: "BancaMV",
-      description: "SPA bancaria con Next, TypeScript y Tailwind.css",
+      description: "SPA bancaria con Next, TypeScript y Tailwind",
       demoUrl: "https://banca-mv.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/BancaMV"
     },
@@ -55,7 +55,7 @@ const portfolioData = [
       image: estudiojuridico,
       altText: "MPP Abogados",
       title: "MPP Abogados",
-      description: "Desarrollo de Estudio Jurídico Integral",
+      description: "Estudio Jurídico Integral",
       demoUrl: "https://mppabogados.netlify.app",
       codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"
     },
@@ -72,7 +72,7 @@ const portfolioData = [
       image: rickandmorty,
       altText: "Rick and Morty",
       title: "Rick and Morty App",
-      description: "Consumo de API con Fetch y React.js",
+      description: "Consumo de API Fetch y React.js",
       demoUrl: "https://rick-and-morty-app-pearl.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
     },

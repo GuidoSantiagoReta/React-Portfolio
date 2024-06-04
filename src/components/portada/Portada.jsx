@@ -14,14 +14,15 @@ import Modal from "../../components/modalProjects/Modal";
 import useModal from "../../hooks/useModal";
 import ProfileImage from "../profileimage/ProfileImage.jsx";
 
+import port2 from "../../media/cart2.mp4";
 
 const icons = [
   { src: html5, id: 'rot', alt: "html5" },
   { src: css3, id: 'inverse-rotation', alt: "css3" },
   { src: javascript, id: 'rot', alt: "javascript" },
   { src: reacticon, id: 'inverse-rotation', alt: "react" },
-  { src: node, id: 'rot', alt: "node" },
   { src: angular, id:'inverse-rotation', alt: "angular"},
+  { src: node, id: 'rot', alt: "node" },
   { src: csharp, id: 'rot', alt: "csharp" }
 
 
@@ -33,10 +34,10 @@ const Portada = () => {
   return (
     <div className="portada-container">
 
-      <video className="video" src={port} autoPlay loop muted preload="auto"></video>
+      <video className="video" src={port2} autoPlay loop muted preload="auto"></video>
       <ProfileImage />
       <h1>Guido Santiago Reta</h1>
-      <p><TypeIt className="typeit-cursor" options={{ loop: true }}><span className="html">Developer</span> | <span className="javascript">Js</span> | <span className="react">React.js</span> | <span className="node">Node.js</span> | <span className="angular">Angular</span> | <span className="csharp">C#</span></TypeIt></p>
+      <p><TypeIt className="typeit-cursor" options={{ loop: true }}><span className="html">Developer</span> | <span className="javascript">Js</span> | <span className="react">React.js</span> | <span className="angular">Angular</span> |  <span className="node">Node.js</span> | <span className="csharp">C#</span></TypeIt></p>
       <div className="icons-container">
         {icons.map((icon, index) => (
           <img
