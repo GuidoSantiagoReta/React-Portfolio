@@ -1,6 +1,6 @@
 .galeria-port {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;  /*ajustar cuando se agreguen mas proyectos*/
     flex-wrap: wrap;
     margin: 6rem;
 
@@ -14,9 +14,6 @@
     position: relative;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, .5);
-
-
-
 }
 
 .imagen-port>img {
@@ -159,7 +156,7 @@
     .imagen-port {
         width: 24%;
         margin-bottom: 50px;
-        height: 285px;    /*modificar a 250 para poner una fila mas de proyectos*/
+        height: 250px;    /*modificar a 285 para poner 8 proyecto nada*/
         overflow: hidden;
         position: relative;
         cursor: pointer;
