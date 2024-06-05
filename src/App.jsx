@@ -8,9 +8,6 @@ import Portada from "./components/portada/Portada";
 
 function App() {
   
-
- 
-
   return (
     <div className="App">
       <Portada />

@@ -16,16 +16,15 @@ import ProfileImage from "../profileimage/ProfileImage.jsx";
 
 
 const icons = [
-  { src: html5, id: 'rot', alt: "html5" },
-  { src: css3, id: 'inverse-rotation', alt: "css3" },
-  { src: javascript, id: 'rot', alt: "javascript" },
-  { src: reacticon, id: 'inverse-rotation', alt: "react" },
-  { src: angular, id:'inverse-rotation', alt: "angular"},
-  { src: node, id: 'rot', alt: "node" },
-  { src: csharp, id: 'rot', alt: "csharp" }
-
-
+  { src: html5, class: 'rot', alt: "html5" },
+  { src: css3, class: 'inverse-rotation', alt: "css3" },
+  { src: javascript, class: 'rot', alt: "javascript" },
+  { src: reacticon, class: 'inverse-rotation', alt: "react" },
+  { src: angular, class:'inverse-rotation', alt: "angular"},
+  { src: node, class: 'rot', alt: "node" },
+  { src: csharp, class: 'rot', alt: "csharp" }
 ];
+
 
 const Portada = () => {
 
@@ -42,11 +41,12 @@ const Portada = () => {
           <img
             key={index}
             src={icon.src}
-            id={icon.id}
+            className={`icon ${icon.class}`}
             alt={icon.alt}
           />
         ))}
       </div>
+
       <button className="projects-btn hvr-pulse-shrink" onClick={openModal}>
         <h4>Projects</h4>
       </button>

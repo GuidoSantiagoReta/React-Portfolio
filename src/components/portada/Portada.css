@@ -168,14 +168,14 @@
 
 
 /*rotate animation*/
-#rot {
+.rot {
     animation-name: rotate;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-#inverse-rotation {
+.inverse-rotation {
     animation-name: inverse-rotation;
     animation-duration: 10s;
     animation-iteration-count: infinite;
