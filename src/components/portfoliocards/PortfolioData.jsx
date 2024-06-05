@@ -23,7 +23,7 @@ const portfolioData = [
       image: bancamv,
       altText: "BancaMV",
       title: "BancaMV",
-      description: "SPA bancaria con Next, TypeScript y Tailwind",
+      description: "Desarrollada con Next, TypeScript y Tailwind",
       demoUrl: "https://banca-mv.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/BancaMV"
     },
@@ -76,17 +76,7 @@ const portfolioData = [
       demoUrl: "https://rick-and-morty-app-pearl.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
     },
-   
+        
 
-
-     /* 
-    {
-      image: cannabisoil,
-      altText: "CannabisOilArg",
-      title: "Cannabis Oil Arg.",
-      description: "Venta de aceites medicinales con React.js",
-      demoUrl: "https://cannabis-oil-arg.vercel.app",
-      codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
-    },*/
   ];
   export default portfolioData;

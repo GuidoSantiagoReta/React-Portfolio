@@ -159,7 +159,7 @@
     .imagen-port {
         width: 24%;
         margin-bottom: 50px;
-        height: 285px;
+        height: 285px;    /*modificar a 250 para poner una fila mas de proyectos*/
         overflow: hidden;
         position: relative;
         cursor: pointer;
