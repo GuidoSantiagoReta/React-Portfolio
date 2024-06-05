@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;  /*ajustar cuando se agreguen mas proyectos*/
     flex-wrap: wrap;
-    margin: 6rem;
+    margin: 8rem;
 
 }
 

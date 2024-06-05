@@ -6,9 +6,10 @@ import swarerouter from "../../assets/swarerouterv6.png";
 import rickandmorty from "../../assets/rickandmorty.png";
 import shiftciclo from "../../assets/shiftciclo.png";
 import bancamv from "../../assets/banca.PNG";
-import cosipatitas from "../../assets/cosipatitas.png"
+import cosipatitas from "../../assets/cosipatitas.png";
 import inniarq from "../../assets/inniarq.png";
-import indevelopment from "../../assets/indevelopment.jpg";
+import tasklist1 from"../../assets/tasklist1.png";
+import blocdenotas from "../../assets/blocdenotas.png"
 
 const portfolioData = [
     
@@ -93,7 +94,22 @@ const portfolioData = [
       demoUrl: "https://rick-and-morty-app-pearl.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
     },
-    
+    {
+      image: tasklist1,
+      altText: "TO-DO List en React",
+      title: "TO-DO List React.js",
+      description: "Lista de tareas realizada en React.js",
+      demoUrl: "https://guidosantiagoreta.github.io/To-Do-List",
+      codeUrl: "https://github.com/GuidoSantiagoReta/To-Do-List"
+    },
+    {
+      image: blocdenotas,
+      altText: "APP BlocDeNotas",
+      title: "APP BlocDeNotas",
+      description: "Bloc de notas con React, Node y Mysql",
+      demoUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas",
+      codeUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas"
+    }
 
   ];
   export default portfolioData;
