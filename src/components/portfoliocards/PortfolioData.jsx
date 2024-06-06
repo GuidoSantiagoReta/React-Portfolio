@@ -50,7 +50,7 @@ const portfolioData = [
       image: blogdecodigo,
       altText: "BlogDeCódigo",
       title: "BlogDeCódigo",
-      description: "Blog personal realizado en React.js",
+      description: "Blog personal con React + Context API",
       demoUrl: "https://blogdecodigo.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/BlogDeCodigo"
     },
@@ -95,6 +95,14 @@ const portfolioData = [
       codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
     },
     {
+      image: blocdenotas,
+      altText: "APP BlocDeNotas",
+      title: "APP BlocDeNotas",
+      description: "APP de notas con React, Node y Mysql",
+      demoUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas",
+      codeUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas"
+    },
+    {
       image: tasklist1,
       altText: "TO-DO List en React",
       title: "TO-DO List React.js",
@@ -102,14 +110,7 @@ const portfolioData = [
       demoUrl: "https://guidosantiagoreta.github.io/To-Do-List",
       codeUrl: "https://github.com/GuidoSantiagoReta/To-Do-List"
     },
-    {
-      image: blocdenotas,
-      altText: "APP BlocDeNotas",
-      title: "APP BlocDeNotas",
-      description: "Bloc de notas con React, Node y Mysql",
-      demoUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas",
-      codeUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas"
-    }
+    
 
   ];
   export default portfolioData;
