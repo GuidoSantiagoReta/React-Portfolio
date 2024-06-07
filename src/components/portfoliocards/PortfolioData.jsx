@@ -10,6 +10,7 @@ import cosipatitas from "../../assets/cosipatitas.png";
 import inniarq from "../../assets/inniarq.png";
 import tasklist1 from"../../assets/tasklist1.png";
 import blocdenotas from "../../assets/blocdenotas.png"
+import umsadevops from "../../assets/umsadevops.png"
 
 const portfolioData = [
     
@@ -19,7 +20,7 @@ const portfolioData = [
       title: "CosiPatitas",
       description: "Pet Shop SPA desarrollada con Angular 17",
       demoUrl: "https://cosipatitas.vercel.app",
-      
+      /*codeUrl: "https://github.com/GuidoSantiagoReta/CosiPatitasPetShop"*/
     },
 
     {
@@ -44,7 +45,7 @@ const portfolioData = [
       title: "Inni Arquitectura",
       description: "En desarrollo React, Next y Tailwind",
       demoUrl: "https://inni-arquitectura.vercel.app/",
-      codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"
+     /* codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"*/
     },
     {
       image: blogdecodigo,
@@ -84,7 +85,7 @@ const portfolioData = [
       title: "MPP Abogados",
       description: "Estudio Jurídico Integral",
       demoUrl: "https://mppabogados.netlify.app",
-      codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"
+      /*codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"*/
     },
     {
       image: rickandmorty,
@@ -99,17 +100,26 @@ const portfolioData = [
       altText: "APP BlocDeNotas",
       title: "APP BlocDeNotas",
       description: "APP de notas con React, Node y Mysql",
-      demoUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas",
+     /*demoUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas",*/
       codeUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas"
     },
     {
+      image: umsadevops,
+      altText: "Proyecto DevOps",
+      title: "Microservicio DevOps",
+      description: "AWS, Terraform y Docker",
+     /* demoUrl: "",*/
+      codeUrl: "https://github.com/alkemyTech/UMSA-DevOps-T4"
+    },
+    
+   /*} {
       image: tasklist1,
       altText: "TO-DO List en React",
       title: "TO-DO List React.js",
       description: "Lista de tareas realizada en React.js",
-      demoUrl: "https://guidosantiagoreta.github.io/To-Do-List",
+     demoUrl: "https://guidosantiagoreta.github.io/To-Do-List",
       codeUrl: "https://github.com/GuidoSantiagoReta/To-Do-List"
-    },
+    }, */
     
 
   ];

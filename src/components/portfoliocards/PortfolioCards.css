@@ -46,7 +46,8 @@
 }
 
 .hover-galeria>h2 {
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 2px #000000;
 }
 
 .hover-galeria>p {
@@ -54,6 +55,8 @@
     color: #fff;
     font-weight: 400;
     font-size: 14px;
+
+    text-shadow: 0 0 1px #fff;
 }
 
 .imagen-port:hover .hover-galeria {
