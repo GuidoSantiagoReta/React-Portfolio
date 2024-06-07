@@ -9,8 +9,9 @@ import bancamv from "../../assets/banca.PNG";
 import cosipatitas from "../../assets/cosipatitas.png";
 import inniarq from "../../assets/inniarq.png";
 import tasklist1 from"../../assets/tasklist1.png";
-import blocdenotas from "../../assets/blocdenotas.png"
 import umsadevops from "../../assets/umsadevops.png"
+import blocdenotas from "../../assets/blocdenotas.png";
+import storev1  from "../../assets/storev1.png";
 
 const portfolioData = [
     
@@ -18,7 +19,7 @@ const portfolioData = [
       image: cosipatitas,
       altText: "CosiPatitas",
       title: "CosiPatitas",
-      description: "Pet Shop SPA desarrollada con Angular 17",
+      description: "Pet Shop SPA desarrollado con Angular 17",
       demoUrl: "https://cosipatitas.vercel.app",
       /*codeUrl: "https://github.com/GuidoSantiagoReta/CosiPatitasPetShop"*/
     },
@@ -27,7 +28,7 @@ const portfolioData = [
       image: bancamv,
       altText: "BancaMV",
       title: "BancaMV",
-      description: "Desarrollada con Next, TypeScript y Tailwind",
+      description: "Landing page bancaria Desarrollada con Next, TypeScript y Tailwind.css.",
       demoUrl: "https://banca-mv.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/BancaMV"
     },
@@ -35,7 +36,7 @@ const portfolioData = [
       image: sistemasolar,
       altText: "APP Sistema Solar",
       title: "APP Sistema Solar",
-      description: "PWA con React.js, Next.js y TypeScript",
+      description: " SPA y PWA colaborativa desarrollada con React.js, Next.js y TypeScript.",
       demoUrl: "https://peit-react2-solar-system-app.vercel.app/",
       codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"
     },
@@ -43,7 +44,7 @@ const portfolioData = [
       image: inniarq,
       altText: "Inni Arquitectura",
       title: "Inni Arquitectura",
-      description: "En desarrollo React, Next y Tailwind",
+      description: "Estudio de arquitectura y diseño en desarrollo con React, Next, TypeScript y Tailwind.css.",
       demoUrl: "https://inni-arquitectura.vercel.app/",
      /* codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"*/
     },
@@ -51,15 +52,15 @@ const portfolioData = [
       image: blogdecodigo,
       altText: "BlogDeCódigo",
       title: "BlogDeCódigo",
-      description: "Blog personal con React + Context API",
+      description: "Blog personal desarrollado con React + Context API.",
       demoUrl: "https://blogdecodigo.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/BlogDeCodigo"
     },
     {
       image: swarerouter,
-      altText: "Swaregrap routerv6",
+      altText: "Swaregrap",
       title: "Swaregrap",
-      description: "Desarrollo Web SPA ReactRouterv6",
+      description: "Servicio técnico y desarrollo Web SPA ReactRouterv6.",
       demoUrl: "https://swaregrap-reactrouterv6.vercel.app",
       codeUrl: "https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
     },
@@ -67,23 +68,23 @@ const portfolioData = [
       image: shiftciclo,
       altText: "Shift.Ciclo",
       title: "Fiesta Shift",
-      description: "SPA con React.js",
+      description: "SPA con React.js (en desarrollo).",
       demoUrl: "https://shift-ciclo.vercel.app/",
       codeUrl: ""
     },
     {
-      image: cannabisoil,
-      altText: "CannabisOilArg",
-      title: "Cannabis Oil Arg.",
-      description: "Venta de aceites medicinales con React.js",
-      demoUrl: "https://cannabis-oil-arg.vercel.app",
-      codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
+      image: storev1,
+      altText: "StoreV",
+      title: "StoreV",
+      description: "Módulo Ecommerce desarrollado con React, Axios + ReactRouterv6 + context API.",
+      /*demoUrl: "",*/
+      codeUrl: "https://github.com/GuidoSantiagoReta/storeV"
     },
     {
       image: estudiojuridico,
       altText: "MPP Abogados",
       title: "MPP Abogados",
-      description: "Estudio Jurídico Integral",
+      description: "Estudio Jurídico Integral.",
       demoUrl: "https://mppabogados.netlify.app",
       /*codeUrl: "https://github.com/GuidoSantiagoReta/MPP-Abogados"*/
     },
@@ -91,7 +92,7 @@ const portfolioData = [
       image: rickandmorty,
       altText: "Rick and Morty",
       title: "Rick and Morty App",
-      description: "Consumo de API Fetch y React.js",
+      description: "Consumo de API Fetch + React.js.",
       demoUrl: "https://rick-and-morty-app-pearl.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/Rick-and-Morty-App"
     },
@@ -99,7 +100,7 @@ const portfolioData = [
       image: blocdenotas,
       altText: "APP BlocDeNotas",
       title: "APP BlocDeNotas",
-      description: "APP de notas con React, Node y Mysql",
+      description: "APP de notas con React, Node.js,express, sequelize, MYSQL y dotenv.",
      /*demoUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas",*/
       codeUrl: "https://github.com/GuidoSantiagoReta/BlocDeNotas"
     },
@@ -107,10 +108,10 @@ const portfolioData = [
       image: umsadevops,
       altText: "Proyecto DevOps",
       title: "Microservicio DevOps",
-      description: "AWS, Terraform y Docker",
+      description: " Configuración de entornos de desarrollo y testing con Pipelines CI/CD, AWS, Terraform y Docker.",
      /* demoUrl: "",*/
       codeUrl: "https://github.com/alkemyTech/UMSA-DevOps-T4"
-    },
+    }
     
    /*} {
       image: tasklist1,
@@ -119,7 +120,16 @@ const portfolioData = [
       description: "Lista de tareas realizada en React.js",
      demoUrl: "https://guidosantiagoreta.github.io/To-Do-List",
       codeUrl: "https://github.com/GuidoSantiagoReta/To-Do-List"
-    }, */
+    }, 
+    {
+      image: cannabisoil,
+      altText: "CannabisOilArg",
+      title: "Cannabis Oil Arg.",
+      description: "Venta de aceites medicinales con React.js",
+      demoUrl: "https://cannabis-oil-arg.vercel.app",
+      codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
+    },
+    */
     
 
   ];
