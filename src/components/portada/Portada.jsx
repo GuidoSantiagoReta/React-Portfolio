@@ -20,8 +20,8 @@ const icons = [
   { src: css3, class: 'inverse-rotation', alt: "css3" },
   { src: javascript, class: 'rot', alt: "javascript" },
   { src: reacticon, class: 'inverse-rotation', alt: "react" },
-  { src: angular, class:'inverse-rotation', alt: "angular"},
-  { src: node, class: 'rot', alt: "node" },
+  { src: angular, class:'rot', alt: "angular"},
+  { src: node, class: 'inverse-rotation', alt: "node" },
   { src: csharp, class: 'rot', alt: "csharp" }
 ];
 
