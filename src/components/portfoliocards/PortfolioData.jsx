@@ -12,6 +12,7 @@ import tasklist1 from"../../assets/tasklist1.png";
 import umsadevops from "../../assets/umsadevops.png"
 import blocdenotas from "../../assets/blocdenotas.png";
 import storev1  from "../../assets/storev1.png";
+import tdyd from "../../assets/tdyd.png";
 
 const portfolioData = [
     
@@ -23,7 +24,14 @@ const portfolioData = [
       demoUrl: "https://cosipatitas.vercel.app",
       /*codeUrl: "https://github.com/GuidoSantiagoReta/CosiPatitasPetShop"*/
     },
-
+    {
+      image: inniarq,
+      altText: "Inni Arquitectura",
+      title: "Inni Arquitectura",
+      description: "Estudio de arquitectura y diseño en desarrollo con React, Next, TypeScript y Tailwind.css.",
+      demoUrl: "https://inni-arquitectura.vercel.app/",
+     /* codeUrl: ""*/
+    },
     {
       image: bancamv,
       altText: "BancaMV",
@@ -41,14 +49,6 @@ const portfolioData = [
       codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"
     },
     {
-      image: inniarq,
-      altText: "Inni Arquitectura",
-      title: "Inni Arquitectura",
-      description: "Estudio de arquitectura y diseño en desarrollo con React, Next, TypeScript y Tailwind.css.",
-      demoUrl: "https://inni-arquitectura.vercel.app/",
-     /* codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"*/
-    },
-    {
       image: blogdecodigo,
       altText: "BlogDeCódigo",
       title: "BlogDeCódigo",
@@ -57,19 +57,11 @@ const portfolioData = [
       codeUrl: "https://github.com/GuidoSantiagoReta/BlogDeCodigo"
     },
     {
-      image: swarerouter,
-      altText: "Swaregrap",
-      title: "Swaregrap",
-      description: "Servicio técnico y desarrollo Web SPA ReactRouterv6.",
-      demoUrl: "https://swaregrap-reactrouterv6.vercel.app",
-      codeUrl: "https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
-    },
-    {
-      image: shiftciclo,
-      altText: "Shift.Ciclo",
-      title: "Fiesta Shift",
-      description: "SPA con React.js (en desarrollo).",
-      demoUrl: "https://shift-ciclo.vercel.app/",
+      image: tdyd,
+      altText: "TDYD",
+      title: "Tecnología, Diseño y Desarrollo",
+      description: "Estrategia de negocios, Desarrollo de producto y servicios Web con React.js.",
+      demoUrl: "https://tdyd.vercel.app/",
       codeUrl: ""
     },
     {
@@ -79,6 +71,14 @@ const portfolioData = [
       description: "Módulo Ecommerce desarrollado con React, Axios + ReactRouterv6 + context API.",
       /*demoUrl: "",*/
       codeUrl: "https://github.com/GuidoSantiagoReta/storeV"
+    },
+    {
+      image: swarerouter,
+      altText: "Swaregrap",
+      title: "Swaregrap",
+      description: "Servicio técnico y desarrollo Web SPA ReactRouterv6.",
+      demoUrl: "https://swaregrap-reactrouterv6.vercel.app",
+      codeUrl: "https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
     },
     {
       image: estudiojuridico,
@@ -113,7 +113,17 @@ const portfolioData = [
       codeUrl: "https://github.com/alkemyTech/UMSA-DevOps-T4"
     }
     
-   /*} {
+   /*
+   {
+      image: shiftciclo,
+      altText: "Shift.Ciclo",
+      title: "Fiesta Shift",
+      description: "SPA con React.js (en desarrollo).",
+      demoUrl: "https://shift-ciclo.vercel.app/",
+      codeUrl: ""
+    },
+   
+   {
       image: tasklist1,
       altText: "TO-DO List en React",
       title: "TO-DO List React.js",
