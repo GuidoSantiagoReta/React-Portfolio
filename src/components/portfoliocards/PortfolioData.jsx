@@ -28,7 +28,7 @@ const portfolioData = [
       image: bancamv,
       altText: "BancaMV",
       title: "BancaMV",
-      description: "Landing page bancaria Desarrollada con Next, TypeScript y Tailwind.css.",
+      description: "Landing page bancaria Desarrollada con React, Next, TypeScript y Tailwind.css.",
       demoUrl: "https://banca-mv.vercel.app/",
       codeUrl: "https://github.com/GuidoSantiagoReta/BancaMV"
     },
