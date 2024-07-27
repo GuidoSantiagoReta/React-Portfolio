@@ -37,7 +37,7 @@ const portfolioData = [
     image: inniarq,
     altText: "Inni Arquitectura",
     title: "Inni Arquitectura",
-    description: "Estudio de arquitectura y diseño en desarrollo con React, Next, TypeScript y Tailwind.css.",
+    description: "Estudio de arquitectura y diseño desarrollado con React, Next, TypeScript y Tailwind.css.",
     demoUrl: "https://inni-arquitectura.vercel.app/",
     /* codeUrl: ""*/
   },
@@ -45,7 +45,7 @@ const portfolioData = [
     image: bancamv,
     altText: "BancaMV",
     title: "BancaMV",
-    description: "Landing page bancaria Desarrollada con React, Next, TypeScript y Tailwind.css.",
+    description: "Landing page bancaria desarrollada con React, Next, TypeScript y Tailwind.css.",
     demoUrl: "https://banca-mv.vercel.app/",
     codeUrl: "https://github.com/GuidoSantiagoReta/BancaMV"
   },
@@ -53,7 +53,7 @@ const portfolioData = [
     image: sistemasolar,
     altText: "APP Sistema Solar",
     title: "APP Sistema Solar",
-    description: " SPA y PWA colaborativa desarrollada con React.js, Next.js y TypeScript.",
+    description: "PWA colaborativa desarrollada con React.js, Next.js y TypeScript.",
     demoUrl: "https://peit-react2-solar-system-app.vercel.app/",
     codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"
   },
