@@ -74,12 +74,12 @@ const portfolioData = [
     codeUrl: "https://github.com/GuidoSantiagoReta/storeV"
   },
   {
-    image: swarerouter,
-    altText: "Swaregrap",
-    title: "Swaregrap",
-    description: "Servicio técnico y desarrollo Web SPA ReactRouterv6.",
-    demoUrl: "https://swaregrap-reactrouterv6.vercel.app",
-    codeUrl: "https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
+    image: tdyd,
+    altText: "TDYD",
+    title: "Tecnología, Diseño y Desarrollo",
+    description: "Estrategia de negocios, Desarrollo de producto y servicios Web con React.js.",
+    demoUrl: "https://tdyd.vercel.app/",
+    codeUrl: ""
   },
   {
     image: estudiojuridico,
@@ -140,14 +140,14 @@ const portfolioData = [
      demoUrl: "https://cannabis-oil-arg.vercel.app",
      codeUrl: "https://github.com/GuidoSantiagoReta/Cannabis-Oil-Arg."
    },
-    {
-     image: tdyd,
-     altText: "TDYD",
-     title: "Tecnología, Diseño y Desarrollo",
-     description: "Estrategia de negocios, Desarrollo de producto y servicios Web con React.js.",
-     demoUrl: "https://tdyd.vercel.app/",
-     codeUrl: ""
-   },
+   {
+    image: swarerouter,
+    altText: "Swaregrap",
+    title: "Swaregrap",
+    description: "Servicio técnico y desarrollo Web SPA ReactRouterv6.",
+    demoUrl: "https://swaregrap-reactrouterv6.vercel.app",
+    codeUrl: "https://github.com/GuidoSantiagoReta/Swaregrap-reactrouterv6"
+  },
    */
 
 
