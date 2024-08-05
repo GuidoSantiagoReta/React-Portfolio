@@ -53,7 +53,7 @@ const portfolioData = [
     image: sistemasolar,
     altText: "APP Sistema Solar",
     title: "APP Sistema Solar",
-    description: "PWA colaborativa desarrollada con React.js, Next.js y TypeScript.",
+    description: "PWA colaborativa desarrollada con React, Next.js y TypeScript.",
     demoUrl: "https://peit-react2-solar-system-app.vercel.app/",
     codeUrl: "https://github.com/PrimerEmpleoIT/PEIT-react2-solar-system-app"
   },
