@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: 'Pontano Sans', sans-serif;
 }
+
+html, body{
+  background-color: rgba(5, 5, 5, 0.9);
+}
