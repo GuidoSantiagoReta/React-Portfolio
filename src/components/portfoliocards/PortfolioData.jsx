@@ -17,14 +17,13 @@ import httpclient from "../../assets/httpclient.png";
 
 const portfolioData = [
   {
-    image: httpclient,
-    altText: "httpClient",
-    title: "Angular API HttpClient",
-    description: "Consumo de API de Productos con Angular, HttpClient, RxJS y Observables",
-    demoUrl: "https://http-client-angular.vercel.app/",
-    codeUrl: "https://github.com/GuidoSantiagoReta/http-client-angular"
+    image: inniarq,
+    altText: "Inni Arquitectura",
+    title: "Inni Arquitectura",
+    description: "Estudio de arquitectura y diseño desarrollado con React, Next, TypeScript y Tailwind.css.",
+    demoUrl: "https://inni-arquitectura.vercel.app/",
+    /* codeUrl: ""*/
   },
-
   {
     image: cosipatitas,
     altText: "CosiPatitas",
@@ -34,20 +33,20 @@ const portfolioData = [
     /*codeUrl: "https://github.com/GuidoSantiagoReta/CosiPatitasPetShop"*/
   },
   {
-    image: inniarq,
-    altText: "Inni Arquitectura",
-    title: "Inni Arquitectura",
-    description: "Estudio de arquitectura y diseño desarrollado con React, Next, TypeScript y Tailwind.css.",
-    demoUrl: "https://inni-arquitectura.vercel.app/",
-    /* codeUrl: ""*/
-  },
-  {
     image: bancamv,
     altText: "BancaMV",
     title: "BancaMV",
     description: "Landing page bancaria desarrollada con React, Next, TypeScript y Tailwind.css.",
     demoUrl: "https://banca-mv.vercel.app/",
     codeUrl: "https://github.com/GuidoSantiagoReta/BancaMV"
+  },
+  {
+    image: httpclient,
+    altText: "httpClient",
+    title: "Angular API HttpClient",
+    description: "Consumo de API de Productos con Angular, HttpClient, RxJS y Observables",
+    demoUrl: "https://http-client-angular.vercel.app/",
+    codeUrl: "https://github.com/GuidoSantiagoReta/http-client-angular"
   },
   {
     image: sistemasolar,
@@ -66,20 +65,20 @@ const portfolioData = [
     codeUrl: "https://github.com/GuidoSantiagoReta/BlogDeCodigo"
   },
   {
-    image: storev1,
-    altText: "StoreV",
-    title: "StoreV",
-    description: "Módulo Ecommerce desarrollado con React, Axios + ReactRouterv6 + context API.",
-    /*demoUrl: "",*/
-    codeUrl: "https://github.com/GuidoSantiagoReta/storeV"
-  },
-  {
     image: tdyd,
     altText: "TDYD",
     title: "Tecnología, Diseño y Desarrollo",
     description: "Estrategia de negocios, Desarrollo de producto y servicios Web con React.js.",
     demoUrl: "https://tdyd.vercel.app/",
     codeUrl: ""
+  },
+  {
+    image: storev1,
+    altText: "StoreV",
+    title: "StoreV",
+    description: "Módulo Ecommerce desarrollado con React, Axios + ReactRouterv6 + context API.",
+    /*demoUrl: "",*/
+    codeUrl: "https://github.com/GuidoSantiagoReta/storeV"
   },
   {
     image: estudiojuridico,
