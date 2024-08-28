@@ -23,7 +23,7 @@ const icons = [
   { src: reacticon, class: 'rot', alt: "react" },
   { src: angular, class:'inverse-rotation', alt: "angular"},
   { src: node, class: 'rot', alt: "node" },
-  {/* { src: csharp, class: 'inverse-rotation', alt: "csharp" } */}
+  { src: csharp, class: 'inverse-rotation', alt: "csharp" } 
 ];
 
 
@@ -36,7 +36,7 @@ const Portada = () => {
       <video className="video" src={port} autoPlay loop muted preload="auto"></video>
       <ProfileImage />
       <h1>Guido Santiago Reta</h1>
-      <p><TypeIt className="typeit-cursor" options={{ loop: true }}><span className="html">Developer</span> | <span className="javascript">Js</span> | <span className="typescript">Ts</span> | <span className="react">React.js</span> | <span className="angular">Angular</span> |  <span className="node">Node.js</span> {/*<span className="csharp">C#</span>*/} </TypeIt></p>
+      <p><TypeIt className="typeit-cursor" options={{ loop: true }}><span className="html">Developer</span> | <span className="javascript">Js</span> | <span className="typescript">Ts</span> | <span className="react">React.js</span> | <span className="angular">Angular</span> |  <span className="node">Node.js</span> | <span className="csharp">C#</span></TypeIt></p>
       <div className="icons-container">
         {icons.map((icon, index) => (
           <img
